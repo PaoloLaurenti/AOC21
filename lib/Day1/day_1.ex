@@ -1,4 +1,4 @@
-defmodule Aoc21.Day1Ex1 do
+defmodule Aoc21.Day1 do
   def count_increases!(input) do
     counter =
       input
