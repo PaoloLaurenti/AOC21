@@ -9,4 +9,12 @@ defmodule Aoc21.Day1Ex1Test do
 
     assert result == 7
   end
+
+  test "increases sum count" do
+    input_file_path = "./test/Day1/input_ex_1.txt"
+
+    result = Day1Ex1.count_sum_increases!(input_file_path)
+
+    assert result == 5
+  end
 end
